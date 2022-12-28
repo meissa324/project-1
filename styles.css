@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
-    justify-content: space-between;
+    margin: 0;
     font-family: roboto, sans-serif;
 
 
@@ -14,12 +14,14 @@ div{
 .header{
     background-color: #1f2937;
     flex-grow: 1;
+    
 
 }
 
 .eye-candy{
     background-color: #1f2937;
     flex-grow: 7;
+    
     
 }
 
@@ -40,5 +42,9 @@ div{
 
 .footer{
     background-color: #1f2937;
+    color: white;
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
