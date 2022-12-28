@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    font-family: roboto, sans-serif;
+
+
+}
+div{
+    /* flex-basis: auto; */
+}
+
+.header{
+    background-color: #1f2937;
+    flex-grow: 1;
+
+}
+
+.eye-candy{
+    background-color: #1f2937;
+    flex-grow: 7;
+    
+}
+
+.info{
+    flex-grow: 7;
+
+}
+
+.quote{
+    background-color: #E5E7EB;
+    flex-grow: 7;
+}
+
+.sign-up{
+    flex-grow: 7;
+
+}
+
+.footer{
+    background-color: #1f2937;
+    flex-grow: 1;
+}
