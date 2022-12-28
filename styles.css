@@ -7,14 +7,14 @@ body{
 
 
 }
-div{
-    /* flex-basis: auto; */
-}
+
 
 .header{
     background-color: #1f2937;
     flex-grow: 1;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -47,4 +47,24 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.header-logo{
+    margin-left: 10em;
+    color: white;
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+.links{
+    margin-right: 10em; 
+    font-size: 18px;
+}
+
+a{
+    margin-right: 1em;
+    text-decoration: none;
+    color: #E5E7EB;
+
 }
