@@ -32,6 +32,11 @@ body{
 
 .info{
     flex-grow: 7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
 
 }
 
@@ -91,7 +96,7 @@ img{
 
 .text{
     font-size: 48px;
-    font-weight: 600;
+    font-weight: 900;
     color: #f9faf8;
 }
 
@@ -109,3 +114,36 @@ img{
     align-items: center;
     border-radius: 11px;
 }
+
+.info-list{
+    display: flex;
+    gap: 3em;
+}
+
+.top{
+    height: 10em;
+    width: 10em;
+    /* background-color: black; */
+    border-radius: 20px;
+    border: 5px solid #3882f6;
+}
+
+.item-1, .item-2, .item-3, .item-4{
+    /* max-width: 10em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom{
+    max-width: 9em;
+    text-align: center;
+    font-size: 16px;
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
