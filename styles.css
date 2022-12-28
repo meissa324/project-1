@@ -43,6 +43,9 @@ body{
 .quote{
     background-color: #E5E7EB;
     flex-grow: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up{
@@ -147,3 +150,20 @@ img{
     color: #1f2937;
 }
 
+.inside-quote-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 50em;
+}
+
+.quote-text{
+    font-size: 26px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-author{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 700;
+}
